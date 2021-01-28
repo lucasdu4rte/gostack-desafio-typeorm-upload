@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  teste-postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: docker
+      POSTGRES_USER: postgres
+      POSTGRES_DB: gostack_desafio06_tests
+    ports:
+      - "5432:5432"
