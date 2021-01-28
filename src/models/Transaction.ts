@@ -6,9 +6,9 @@ import {
   JoinColumn,
   CreateDateColumn,
   UpdateDateColumn,
-} from 'typeorm'
+} from 'typeorm';
 
-import Category from './Category'
+import Category from './Category';
 
 @Entity('transactions')
 class Transaction {
